@@ -1,0 +1,12 @@
+.div-main{
+    float: left;
+    width:25%;
+}
+p{margin:10px 0;}
+.discountamount{
+    color:green;
+}
+span{
+    margin-right:10px;
+  
+}

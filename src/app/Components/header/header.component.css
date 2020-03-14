@@ -1,0 +1,29 @@
+header{
+    background-color:#0033CC;
+    padding:30px;
+    padding-bottom:37px;
+
+}
+body{
+    margin:0px !important;
+}
+.cart{
+    font-size:30px;
+    font-style:normal;
+    color:white !important;
+    float:right;
+    margin-left: 25px;
+}
+.search{
+    font-size:30px;
+    font-style:normal;
+    color:white;
+    font-style:normal;
+    float:right;
+}
+.star{
+    font-size:30px;
+    color:#E8C04D;
+    float:left;
+}
+

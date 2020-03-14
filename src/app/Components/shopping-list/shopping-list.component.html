@@ -1,0 +1,19 @@
+
+    <input class="form-control" type="text"   (input)="filterItem($event.target.value)"  autocomplete="off" placeholder="&#61442;  Start searching for a hero by id or name or country">
+  
+<div *ngFor="let detaillist of shoplist" class="div-main container">
+    
+    <img src="{{detaillist.img_url}}" width="200" height="200" alt="detailimage"> 
+    <br/>
+<p> {{detaillist.name}}</p>
+
+ <span>{{detaillist.price | currency:"&#8377;"}}</span>
+ <span>{{detaillist.discount}}</span>
+ <span class="discountamount">64% off</span>
+ <br/>
+ <br/>
+ <button type="button" class="btn btn-warning">Apply</button>
+ <br/>
+ <br/>
+</div>
+<!-- <header [searchdata]="detaillist"></header> -->

@@ -1,0 +1,15 @@
+
+<header>
+ <i class="fa fa-star star"  aria-hidden="true"></i>
+<i class="fa fa-shopping-cart cart"  aria-hidden="true"></i>
+
+<!-- <div class="search-hero">
+    <input class="form-control" type="text" name="search"  autocomplete="off" placeholder="&#61442;  Start searching for a hero by id or name or country">
+  </div> -->
+  <form class="form-inline md-form form-sm active-cyan-2" style="justify-content: flex-end;">
+    <input class="form-control form-control-sm mr-3 w-25"  (input)="filterData($event.target.value)" type="text"  placeholder="Search" aria-label="Search"
+      mdbInput style="border-bottom:1px solid black !important;background-color:transparent;border:0px;">
+      <i class="fa fa-search search"  aria-hidden="true"></i>
+  </form>
+<!-- <ShoppingListComponent></ShoppingListComponent> -->
+</header>
